@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>idlemaster</id>
+    <version>1.4.1.0</version>
+    <packageSourceUrl>https://github.com/MacDhughaill/chocolatey-packages</packageSourceUrl>
+    <owners>Chase McDugle</owners>
+    <title>Idle Master</title>
+    <authors>Jason Shackles</authors>
+    <projectUrl>https://www.steamidlemaster.com/</projectUrl>
+    <iconUrl>http://cdn.rawgit.com/jshackles/idle_master/v1.4.1/Source/IdleMaster/logo1.ico</iconUrl>
+    <licenseUrl>https://github.com/jshackles/idle_master/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/jshackles/idle_master</projectSourceUrl>
+    <tags>idlemaster steam</tags>
+    <summary>Steam Trading Card Drops Idler</summary>
+    <description>This program will determine which of your Steam games still have Steam Trading Card drops remaining, and will go through each application to simulate you being “in-game” so that cards will drop.  It will check periodically to see if the game you’re idling has card drops remaining.  When only one drop remains, it will start checking more frequently.  When the game you’re idling has no more cards, it’ll move on to the next game.  When no more cards are available, the program will terminate.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
