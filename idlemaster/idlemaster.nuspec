@@ -9,13 +9,14 @@
     <title>Idle Master</title>
     <authors>Jason Shackles</authors>
     <projectUrl>https://www.steamidlemaster.com/</projectUrl>
-    <iconUrl>http://cdn.rawgit.com/jshackles/idle_master/v1.4.1/Source/IdleMaster/logo1.ico</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/MacDhughaill/chocolatey-packages/41862c9499521fad98d5b621885fa6f841aae2c6/icons/idlemaster.png</iconUrl>
     <licenseUrl>https://github.com/jshackles/idle_master/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/jshackles/idle_master</projectSourceUrl>
     <tags>idlemaster steam</tags>
     <summary>Steam Trading Card Drops Idler</summary>
     <description>This program will determine which of your Steam games still have Steam Trading Card drops remaining, and will go through each application to simulate you being “in-game” so that cards will drop.  It will check periodically to see if the game you’re idling has card drops remaining.  When only one drop remains, it will start checking more frequently.  When the game you’re idling has no more cards, it’ll move on to the next game.  When no more cards are available, the program will terminate.</description>
+	<releaseNotes>This is the initial package for Idle Master, starting with the currently latest version of the software available, which is 1.4.1.0.</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
