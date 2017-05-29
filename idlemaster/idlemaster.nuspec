@@ -4,7 +4,7 @@
   <metadata>
     <id>idlemaster</id>
     <version>1.4.1.0</version>
-    <packageSourceUrl>https://github.com/MacDhughaill/chocolatey-packages</packageSourceUrl>
+    <packageSourceUrl>https://github.com/MacDhughaill/chocolatey-packages/tree/master/idlemaster</packageSourceUrl>
     <owners>Chase McDugle</owners>
     <title>Idle Master</title>
     <authors>Jason Shackles</authors>
